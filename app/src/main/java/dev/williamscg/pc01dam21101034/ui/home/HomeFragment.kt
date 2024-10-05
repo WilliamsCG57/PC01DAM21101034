@@ -35,7 +35,7 @@ class HomeFragment : Fragment() {
         val lstPlayer: ArrayList<PlayerModel> = ArrayList()
         lstPlayer.add(PlayerModel(1,R.drawable.haland,"2000","Erling Haaland","23"))
         lstPlayer.add(PlayerModel(2,R.drawable.jude,"2000","Jude Bellingham","23"))
-        lstPlayer.add(PlayerModel(3,R.drawable.haland,"2001","Piero Quispe","22"))
+        lstPlayer.add(PlayerModel(3,R.drawable.quispe,"2001","Piero Quispe","22"))
 
         return lstPlayer
     }
