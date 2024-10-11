@@ -15,6 +15,7 @@ class PlayerAdapter (private var lstSong: List<PlayerModel>) :
         val tvName: TextView = itemView.findViewById(R.id.tvName)
         val tvAnio: TextView = itemView.findViewById(R.id.tvAnio)
         val tvAnios: TextView = itemView.findViewById(R.id.tvAnios)
+        val ivPlayer: ImageView = itemView.findViewById(R.id.ivPlayer)
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
@@ -31,5 +32,7 @@ class PlayerAdapter (private var lstSong: List<PlayerModel>) :
         holder.tvName.text = itemSong.name
         holder.tvAnio.text = itemSong.year
         holder.tvAnios.text = itemSong.age
+        holder.ivPlayer.setImageResource(itemSong.image)
+
     }
 }
