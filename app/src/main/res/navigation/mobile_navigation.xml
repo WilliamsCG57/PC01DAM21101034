@@ -8,18 +8,18 @@
     <fragment
         android:id="@+id/nav_players"
         android:name="dev.williamscg.pc01dam21101034.ui.home.HomeFragment"
-        android:label="@string/menu_home"
+        android:label="@string/menu_listado"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/nav_rendimiento"
         android:name="dev.williamscg.pc01dam21101034.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
+        android:label="@string/menu_rendimiento"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_equipos"
         android:name="dev.williamscg.pc01dam21101034.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
+        android:label="@string/menu_equipos"
         tools:layout="@layout/fragment_slideshow" />
 </navigation>

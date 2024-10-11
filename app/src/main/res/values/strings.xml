@@ -10,8 +10,18 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+
+    <string name="menu_listado">Players</string>
+    <string name="menu_rendimiento">Rendimiento</string>
+    <string name="menu_equipos">Equipos</string>
+
     <string name="etTitle">SIGN IN</string>
     <string name="etNameHint">Enter an Email</string>
     <string name="etPasswordHint">Enter a password</string>
     <string name="btnLogin">LOGIN</string>
+    <string name="tvTitle">RENDIMIENTO</string>
+    <string name="btnCalcular">Calcular</string>
+    <string name="hintKm">Kilómetros recorridos</string>
+    <string name="hintMin">Minutos jugados</string>
+    <string name="tvMensaje">El rendimiento es:</string>
 </resources>

@@ -7,14 +7,14 @@
         <item
             android:id="@+id/nav_players"
             android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
+            android:title="@string/menu_listado" />
         <item
             android:id="@+id/nav_rendimiento"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+            android:title="@string/menu_rendimiento" />
         <item
             android:id="@+id/nav_equipos"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:title="@string/menu_equipos" />
     </group>
 </menu>
